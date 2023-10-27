@@ -18,8 +18,8 @@ classifiers = [
 ]
 dependencies = [
     "tqdm", "librosa", "resampy", "huggingface_hub",
-    "torch<2.0",
-    "torchaudio<2.0",
+    "torch==2.0.1",
+    "torchaudio>=2.0.0",
 ]
 
 [project.urls]
